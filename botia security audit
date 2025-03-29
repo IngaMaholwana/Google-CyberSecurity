@@ -1,0 +1,239 @@
+Internal Audit Report: Botium Toys IT Security and Compliance
+
+1. Overview
+The purpose of this internal audit is to assess Botium Toys' current security posture, identify vulnerabilities, and ensure compliance with U.S. and international regulations, including PCI DSS (Payment Card Industry Data Security Standard) and GDPR (General Data Protection Regulation). The audit follows the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF).
+
+2. Scope and Goals
+
+Scope: The entire security program at Botium Toys, including employee devices, internal networks, stored data, and business-critical systems.
+
+Goals:
+
+Identify and classify assets.
+
+Assess security risks and determine the impact of asset loss.
+
+Complete a controls and compliance checklist.
+
+Recommend necessary security measures to improve compliance.
+
+3. Risk Assessment Summary
+
+Risk Score: 8/10 (High)
+
+Potential Risks:
+
+Lack of asset management and classification.
+
+Inadequate access control and encryption.
+
+No intrusion detection system (IDS) or backup strategy.
+
+Weak password policies and no centralized password management.
+
+No structured disaster recovery plan.
+
+Compliance risks with PCI DSS and GDPR.
+
+Potential Impact: Medium to high due to possible data breaches, financial penalties, and operational disruptions.
+
+4. Controls and Compliance Checklist
+
+Control Category
+
+Control Name
+
+Control Type
+
+Status
+
+Action Required
+
+Administrative Controls
+
+Least Privilege
+
+Preventative
+
+Not Implemented
+
+Enforce role-based access control (RBAC).
+
+
+
+Disaster Recovery Plan
+
+Corrective
+
+Not Implemented
+
+Develop and document a recovery plan.
+
+
+
+Password Policies
+
+Preventative
+
+Weak
+
+Enforce NIST-recommended password policies.
+
+
+
+Access Control Policies
+
+Preventative
+
+Not Implemented
+
+Implement least privilege and separation of duties.
+
+
+
+Account Management
+
+Preventative
+
+Partially Implemented
+
+Enforce strict account creation and deactivation policies.
+
+Technical Controls
+
+Firewall
+
+Preventative
+
+Implemented
+
+Ensure firewall rules align with best practices.
+
+
+
+IDS/IPS
+
+Detective
+
+Not Implemented
+
+Deploy an intrusion detection and prevention system.
+
+
+
+Encryption
+
+Deterrent
+
+Not Implemented
+
+Encrypt all stored and transmitted cardholder data.
+
+
+
+Backups
+
+Corrective
+
+Not Implemented
+
+Implement routine data backups and secure offsite storage.
+
+
+
+Password Management
+
+Preventative
+
+Not Implemented
+
+Use a centralized password management system.
+
+
+
+Antivirus
+
+Preventative
+
+Implemented
+
+Ensure AV software is regularly updated.
+
+Physical Controls
+
+CCTV
+
+Preventative/Detective
+
+Implemented
+
+Ensure footage is securely stored and monitored.
+
+
+
+Locking Cabinets
+
+Preventative
+
+Implemented
+
+Verify restricted access to critical hardware.
+
+
+
+Fire Detection
+
+Detective/Preventative
+
+Implemented
+
+Ensure fire systems are regularly tested.
+
+5. Compliance Gaps and Recommendations
+
+PCI DSS (Payment Security Compliance)
+
+Implement encryption for cardholder data.
+
+Restrict data access to authorized personnel.
+
+Conduct regular security testing and vulnerability assessments.
+
+GDPR (E.U. Compliance)
+
+Ensure all customer data is encrypted and protected.
+
+Implement data breach notification procedures.
+
+Establish data retention policies.
+
+General Best Practices
+
+Deploy multi-factor authentication (MFA) for internal systems.
+
+Conduct regular employee security training.
+
+Perform annual security audits and risk assessments.
+
+6. Conclusion and Next Steps
+Botium Toys has significant security and compliance gaps that could result in operational disruptions and regulatory penalties. Immediate actions include implementing encryption, access controls, backups, and an IDS. Strengthening compliance with PCI DSS and GDPR will mitigate risks and ensure secure business operations as the company expands globally.
+
+Action Items:
+
+Establish an asset management system.
+
+Implement encryption for customer payment data.
+
+Restrict access to sensitive data following the least privilege principle.
+
+Deploy an IDS to detect network intrusions.
+
+Develop and test a disaster recovery plan.
+
+Enforce strong password policies and a centralized password manager.
+
+Conduct regular employee cybersecurity training.
+
+By addressing these issues, Botium Toys can significantly improve its security posture and align with industry best practices.
+
+

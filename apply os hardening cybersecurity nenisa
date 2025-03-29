@@ -1,0 +1,71 @@
+Cybersecurity Incident Report
+
+Section 1: Identify the network protocol involved in the incident
+
+The following network protocols were involved in this security incident:
+
+Domain Name System (DNS): The browser initiated DNS requests to resolve the IP addresses for yummyrecipesforme.com and greatrecipesforme.com. The DNS server responded with the corresponding IP addresses.
+
+Hypertext Transfer Protocol (HTTP): The browser used HTTP to request webpages from the compromised website and later from the attacker’s malicious website.
+
+Transmission Control Protocol (TCP): TCP facilitated the data transmission between the browser and the web servers, ensuring connection establishment and data exchange.
+
+File Transfer Protocol (FTP) or HTTP-based file download: The malicious JavaScript embedded in the website prompted users to download an executable file containing malware.
+
+Section 2: Document the incident
+
+Incident Overview
+
+A former employee executed a brute force attack to gain unauthorized access to the web hosting admin panel. Using default credentials, they successfully logged in and modified the website’s source code to inject malicious JavaScript. This script prompted visitors to download a file, which, upon execution, redirected them to a fake website (greatrecipesforme.com) that delivered malware.
+
+Attack Timeline and Behavior
+
+The attacker repeatedly attempted different passwords on the admin login panel until successfully guessing the default password.
+
+After obtaining access, they modified the source code of yummyrecipesforme.com, embedding a JavaScript function that forced visitors to download an executable file.
+
+When a visitor accessed the website:
+
+The browser initiated a DNS request for yummyrecipesforme.com.
+
+The website responded with an HTTP request and triggered an automatic file download.
+
+After running the file, the user’s browser initiated a DNS request for greatrecipesforme.com.
+
+The attacker’s fake website loaded, exposing the visitor to further malware infection.
+
+Customers began reporting unusual behavior, including forced file downloads, slow system performance, and redirections to an unfamiliar website.
+
+The website owner attempted to log in but found the credentials had been changed, leading them to contact the hosting provider.
+
+The cybersecurity team investigated and confirmed the presence of malicious JavaScript and unauthorized modifications.
+
+Impact on the Organization
+
+Website integrity compromised: Customers were exposed to malware, leading to reputational damage and potential legal consequences.
+
+Loss of customer trust: Users who fell victim to the malware may hesitate to revisit or purchase from the site.
+
+Potential financial and legal liabilities: If customers’ sensitive information was stolen or their devices were compromised, the company may face regulatory penalties or lawsuits.
+
+Operational disruption: The website’s administrative access was locked, requiring intervention from the hosting provider.
+
+Section 3: Recommend one remediation for brute force attacks
+
+To prevent future brute force attacks, the following security measure should be implemented:
+
+Enforce Strong Authentication Mechanisms
+
+Require Strong, Unique Passwords: Enforce password policies requiring a mix of uppercase/lowercase letters, numbers, and special characters.
+
+Implement Multi-Factor Authentication (MFA): Require additional verification methods beyond a password, such as SMS codes or authentication apps.
+
+Limit Login Attempts: Configure the web host to block IP addresses after multiple failed login attempts.
+
+Use CAPTCHA for Login Attempts: Implement CAPTCHA to prevent automated brute-force attacks.
+
+Disable Default Credentials: Ensure administrative accounts are assigned unique, strong passwords upon deployment.
+
+By applying these measures, the organization can significantly reduce the risk of brute force attacks and unauthorized access to the web server.
+
+

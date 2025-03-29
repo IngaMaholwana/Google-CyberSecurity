@@ -1,0 +1,65 @@
+Incident Report Analysis
+
+Summary:The organization experienced a Distributed Denial of Service (DDoS) attack, specifically an ICMP flood attack, which disrupted internal network services for two hours. The attack originated from an external malicious actor exploiting an unconfigured firewall, allowing excessive ICMP packets to overwhelm the network. As a result, normal network traffic was blocked, impacting business operations. The incident management team mitigated the attack by blocking ICMP packets, stopping non-essential network services, and restoring critical systems.
+
+Identify:
+
+Type of Attack: ICMP flood attack (DDoS)
+
+Affected Systems: Network infrastructure, internal servers, firewall
+
+Cause: Unconfigured firewall allowed excessive ICMP packets
+
+Impact: Network downtime (2 hours), loss of productivity, potential reputational damage
+
+Attack Source: Malicious actor using spoofed IP addresses to send ICMP packets
+
+Protect:To enhance security and prevent similar incidents, the organization should:
+
+Firewall Configuration: Implement strict firewall rules to limit ICMP traffic and prevent unauthorized external requests.
+
+Access Controls: Enforce strict access control policies to prevent unauthorized access to critical network settings.
+
+Employee Training: Conduct cybersecurity awareness training to educate staff on security best practices and potential threats.
+
+Security Policies: Develop and enforce network security policies that define acceptable traffic and protocols.
+
+Patch Management: Regularly update firewall and network devices to address vulnerabilities.
+
+Detect:To improve detection capabilities, the organization should:
+
+Network Monitoring: Deploy an Intrusion Detection System (IDS) and Intrusion Prevention System (IPS) to monitor incoming traffic for anomalies.
+
+SIEM Implementation: Utilize a Security Information and Event Management (SIEM) system to analyze logs and identify potential threats.
+
+Traffic Analysis: Implement real-time traffic monitoring tools to detect unusual patterns or spikes in ICMP requests.
+
+User Access Auditing: Monitor and track authorized vs. unauthorized access attempts on network devices.
+
+Respond:To effectively contain and neutralize future incidents, the organization should:
+
+Incident Response Plan: Develop a structured incident response plan that outlines immediate actions during an attack.
+
+Containment Procedures: Establish firewall rules to block or limit excessive ICMP traffic immediately.
+
+Forensic Analysis: Investigate attack logs to determine attack origin and tactics used.
+
+Communication Plan: Inform internal teams and stakeholders about ongoing incidents and response efforts.
+
+Threat Intelligence Integration: Leverage external threat intelligence sources to identify and mitigate emerging threats.
+
+Recover:To ensure a swift recovery from cybersecurity incidents, the organization should:
+
+System Restoration: Restore affected network systems and services using backups and redundant systems.
+
+Security Reinforcement: Update firewall configurations and security policies based on lessons learned from the attack.
+
+Post-Incident Review: Conduct a post-mortem analysis to identify weaknesses and improve response mechanisms.
+
+Continuous Improvement: Regularly test and update security controls to address evolving threats.
+
+Backup Verification: Ensure critical data backups are secure and up to date to enable quick restoration in case of an attack.
+
+By implementing these strategies, the organization can significantly reduce its risk of future DDoS attacks and enhance its overall cybersecurity resilience.
+
+

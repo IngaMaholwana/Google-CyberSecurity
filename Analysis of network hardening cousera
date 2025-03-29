@@ -1,0 +1,51 @@
+Security Risk Assessment Report
+
+Part 1: Hardening Tools and Methods to Implement
+
+To mitigate the identified security vulnerabilities and protect the organization's network from future attacks, the following security hardening practices should be implemented:
+
+Enforce Strong Password Policies and Prevent Password Sharing
+
+Require employees to use complex passwords with a minimum length of 12 characters, including uppercase and lowercase letters, numbers, and symbols.
+
+Implement password expiration policies requiring employees to change their passwords every 60-90 days.
+
+Educate employees on the risks of password sharing and enforce policies to prevent this practice.
+
+Change Default Admin Passwords and Implement Role-Based Access Control (RBAC)
+
+Immediately change all default passwords, especially for critical systems such as databases, administrative accounts, and network devices.
+
+Use a password manager to generate and store strong, unique passwords securely.
+
+Implement Role-Based Access Control (RBAC) to ensure that employees only have access to the resources necessary for their job functions.
+
+Enhance Network Security with Firewall Rules and Multifactor Authentication (MFA)
+
+Configure firewalls to enforce strict rules that filter both inbound and outbound traffic based on security policies.
+
+Enable logging and monitoring of firewall activity to detect potential threats in real time.
+
+Require MFA for all employee logins, especially for administrative and high-privilege accounts, to provide an extra layer of security.
+
+Part 2: Explanation of Recommended Security Hardening Practices
+
+Enforcing Strong Password Policies and Preventing Password Sharing
+
+Effectiveness: This measure reduces the likelihood of credential-based attacks, such as brute force or credential stuffing. It ensures that passwords cannot be easily guessed or compromised.
+
+Implementation Frequency: Password policies should be enforced continuously, with automated reminders for password updates every 60-90 days.
+
+Changing Default Admin Passwords and Implementing Role-Based Access Control (RBAC)
+
+Effectiveness: Default passwords are a well-known vulnerability exploited by attackers. Changing them immediately minimizes unauthorized access risks, and RBAC ensures users only access the necessary data, reducing insider threats.
+
+Implementation Frequency: Default passwords should be changed immediately upon system setup, and RBAC policies should be reviewed and updated at least quarterly.
+
+Enhancing Network Security with Firewall Rules and Multifactor Authentication (MFA)
+
+Effectiveness: Firewalls filter malicious traffic, reducing exposure to cyber threats. MFA adds an additional layer of protection, making unauthorized access significantly harder, even if passwords are compromised.
+
+Implementation Frequency: Firewall rules should be reviewed monthly or after any network infrastructure changes. MFA should be enforced organization-wide and reviewed regularly for compliance.
+
+By implementing these security hardening techniques, the organization will significantly reduce the risk of data breaches and enhance overall network security.
