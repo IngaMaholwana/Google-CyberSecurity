@@ -1,0 +1,28 @@
+# Step 1: Open the file that contains the allow list
+import_file = "allow_list.txt"
+with open(import_file, "r") as file:
+    ip_addresses = file.read()
+
+# Step 2: Read the file contents
+ip_addresses = ip_addresses.strip()
+
+# Step 3: Convert the string into a list
+ip_addresses = ip_addresses.split("\n")
+
+# Step 4: Define the remove list (example IPs to be removed)
+remove_list = ["192.168.1.5", "10.0.0.2", "172.16.0.4"]
+
+# Step 5: Iterate through the remove list and remove IPs
+for element in remove_list:
+    if element in ip_addresses:
+        ip_addresses.remove(element)
+
+# Step 6: Update the file with the revised list of IP addresses
+updated_content = "\n".join(ip_addresses)
+with open(import_file, "w") as file:
+    file.write(updated_content)
+
+print("Allow list updated successfully.")
+
+
+
